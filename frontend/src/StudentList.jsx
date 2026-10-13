@@ -5,7 +5,7 @@ function StudentList() {
   const [students, setStudents] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/students")
+    fetch("https://skillswap-dt8c.onrender.com/api/students")
       .then((response) => response.json())
       .then((data) => setStudents(data))
       .catch((error) => console.error(error));

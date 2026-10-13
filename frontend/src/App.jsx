@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 
-const API = "http://localhost:8080/api";
+const API = "https://skillswap-dt8c.onrender.com/api";
 const demoStudents = [
   { id: 101, name: "Aarav Sharma", email: "aarav@example.com", skillsToTeach: "Python, Java, DSA", skillsToLearn: "UI Design, React" },
   { id: 102, name: "Maya Reddy", email: "maya@example.com", skillsToTeach: "UI Design, Figma, Canva", skillsToLearn: "Python, Machine Learning" },

@@ -46,7 +46,7 @@ function Register() {
 
     try {
       const response = await fetch(
-        "http://localhost:8080/api/students/register",
+        "https://skillswap-dt8c.onrender.com/api/students/register",
         {
           method: "POST",
           headers: {
