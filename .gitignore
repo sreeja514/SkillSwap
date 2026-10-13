@@ -1,0 +1,17 @@
+# Build and dependency output
+**/target/
+**/node_modules/
+**/build/
+**/dist/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+**/application-local.properties
+.e
+
+# IDE files
+.idea/
+.vscode/
+*.iml

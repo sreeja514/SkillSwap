@@ -1,0 +1,97 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f7ff;
+  color: #252344;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: white;
+}
+
+.navbar h2 {
+  color: #6c4ce5;
+}
+
+button {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-btn {
+  background: white;
+  color: #6c4ce5;
+}
+
+.signup-btn,
+.start-btn {
+  background: #6c4ce5;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 75px 20px;
+}
+
+.tagline {
+  color: #6c4ce5;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hero h1 {
+  font-size: 46px;
+  line-height: 1.2;
+  margin: 22px 0;
+}
+
+.description {
+  color: #68677b;
+  max-width: 520px;
+  margin: 0 auto 28px;
+  line-height: 1.7;
+}
+
+.start-btn {
+  font-size: 16px;
+  padding: 15px 30px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin: 65px auto 0;
+  max-width: 850px;
+}
+
+.features div {
+  background: white;
+  border-radius: 14px;
+  padding: 25px;
+  width: 220px;
+  box-shadow: 0 5px 20px #25234410;
+}
+
+.features h3 {
+  color: #6c4ce5;
+}
+
+.features p {
+  color: #68677b;
+}
+
